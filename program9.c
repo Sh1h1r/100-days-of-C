@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<math.h>
+#include<math.h> 
 int main(){
 	float p,r,t,si,ci;
 	printf("enter princial amount:");
