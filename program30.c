@@ -1,13 +1,13 @@
-#include<stdio.h>
-int main(){
-	int n,fst,snd,trd;
+#include <stdio.h>
+int main (){
+	int number;
 	printf("enter a number:");
-	scanf("%d",&n);
-	fst=n%10;
-	n=n/10;
-	snd=n%10;
-	n=n/10;
-	trd=n%10;
-	printf("the number reversed is %d%d%d\n",fst,snd,trd);
+	scanf("%d", &number);
+	while (number){
+		int digit = number % 10;
+		printf("%d", digit);
+		number = number / 10;
+	}
+	printf("\n");
 	return 0;
 }
