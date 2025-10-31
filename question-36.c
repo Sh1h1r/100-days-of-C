@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	int number, number_2;
+	int number, number_2, hcf;
 	printf("enter a number 1:");
 	scanf("%d", &number);
 	printf("enter a number 2:");
@@ -12,7 +12,7 @@ int main(){
 						for(int l = 1; l <= number_2; l++ ){
 							if( k * l == number_2 ){
 								if( k == i ){
-									printf("the highest common factors are:%d\n", k);
+									hcf = k;
 								}
 							}
 					}
@@ -20,5 +20,6 @@ int main(){
 			}
 		}
 	}
+	printf("the highest common factor is:%d\n", hcf);
 	return 0;
 }
