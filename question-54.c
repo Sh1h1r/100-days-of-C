@@ -7,10 +7,6 @@
  *****
   ***
    *
-
-space = 1,2,3
-star = 5, 3 , 1
-row=0,1,2
 */
 int main(){
 	for( int row = 0; row < 4; row++){
